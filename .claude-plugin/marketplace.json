@@ -1,11 +1,18 @@
 {
   "name": "claude-mods",
-  "owner": { "name": "navin0812" },
+  "owner": {
+    "name": "navin0812"
+  },
   "plugins": [
     {
       "name": "blast-radius",
       "source": "./blast-radius",
       "description": "Holds destructive Bash calls (rm -rf, git reset --hard, git clean, force push, migrations) and shows the files affected in a pane until you Proceed or Cancel."
+    },
+    {
+      "name": "replay-theater",
+      "source": "./replay-theater",
+      "description": "Records every Edit/Write in a turn, then steps through them one diff at a time in a pane (/replay)."
     }
   ]
 }
