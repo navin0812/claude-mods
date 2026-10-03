@@ -1,0 +1,1 @@
+{ "name": "blast-radius", "version": "0.1.0", "description": "Holds destructive Bash calls (rm -rf, git reset --hard, git clean, force push, migrations) and shows the files affected in a pane until you Proceed or Cancel.", "types": "./types/index.d.ts" }
