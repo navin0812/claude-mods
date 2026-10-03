@@ -1,0 +1,11 @@
+{
+  "name": "claude-mods",
+  "owner": { "name": "navin0812" },
+  "plugins": [
+    {
+      "name": "blast-radius",
+      "source": "./blast-radius",
+      "description": "Holds destructive Bash calls (rm -rf, git reset --hard, git clean, force push, migrations) and shows the files affected in a pane until you Proceed or Cancel."
+    }
+  ]
+}
